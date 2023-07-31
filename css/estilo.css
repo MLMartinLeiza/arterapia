@@ -1,0 +1,423 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Agrandir';
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url(../fonts/Agrandir-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: white;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+    color: gray;
+}
+
+
+
+
+
+.contenedorGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 15%;
+    align-items: center;
+    margin-left: 2%;
+    row-gap: 4%;
+}
+
+.imagen {
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.video {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    padding: 1.5%;
+    color: #555555;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #fbf5e9;
+    width: 100%;
+    height: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-top: 2px solid white;
+    color: #555555;
+}
+
+.contenedorPadre {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+.contenedor {
+    flex-direction: column;
+    width: 33%;
+    margin-left: 2%;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor2 {
+    display: inline-block;
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor3 {
+    display: inline-block;
+    width: 30%;
+    justify-content: right;
+    text-align: left;
+}
+
+.listaFooter {
+    display: block;
+    font-size: 1px;
+    text-transform: lowercase;
+}
+
+.formulario {
+    display: flex;
+    width: 90%;
+    margin-top: 12%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    justify-content: right;
+}
+
+.redesContacto {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 330px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10%;
+}
+
+.parrafoContacto {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.contenedorCategorias {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 16%;
+    margin-left: 10%;
+    margin-right: 0;
+    width: 20%;
+    color: #555555;
+}
+
+.listaProductos {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8%;
+}
+
+.subtituloProductos {
+    margin-left: 5%;
+}
+
+.contenedorProductos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 65%;
+    margin-top: 8%;
+    border-bottom: 10%;
+    margin-right: 10%;
+    padding: 8%;
+}
+
+.imagenProductos {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border: 10px solid white;
+    border-radius: 20px;
+}
+
+.imagenSobreArterapia {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagenArterapia {
+    margin-top: 70%;
+    margin-left: 50%;
+    margin-bottom: 10%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.textoArterapia {
+    margin-top: 19%;
+    margin-left: 20%;
+    width: 50%;
+    font-size: 1.5rem;
+    color: #555555;
+}
+
+.listaCuidados {
+    display: flex;
+    display: inline-block;
+    background-color:  #FBF4EA;
+    width: 50%;
+    margin-top: 15%;
+    padding: 5%;
+    border: white solid 2px;
+    border-radius: 10px;
+    color: #555555;
+}
+
+
+
+.contenedorCuidados {
+    display: flex;
+    background-color: #FBF4EA;
+}
+
+.contenedorEvento {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "sectionA imagenEvento"
+    "imagenEvento2 sectionB";
+    
+}
+
+.sectionA {
+    grid-area: sectionA;
+    width: 1fr;
+    margin-top: 20%;margin-left: 20%;
+
+}
+
+.imagenEvento {
+    width: 50%;
+    grid-area: imagenEvento;
+    margin-top: 30%;
+    margin-left: 10%;
+}
+
+.sectionB {
+    grid-area: sectionB;
+    width: 1fr;
+    margin-right: 20%;
+    
+}
+
+.imagenEvento2 {
+    grid-area: imagenEvento2;
+    width: 50%;
+}
+
+/* Inicio con Grid y responsive */
+
+.inicioGrid {
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas: 
+    "nav"
+    "video"
+    "footer";
+}
+
+.contenedorNavInicio {
+    grid-area: nav;
+    width: 100%;
+}
+
+.video {
+    grid-area: video;
+}
+
+.footerInicio {
+    grid-area: footer;
+    height: 80%;
+}
+
+/* Vista smartphone */
+
+@media (max-width: 500px) {
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Agrandir';
+        font-weight: normal;
+        box-sizing: border-box;
+    }
+    
+
+    .logoArterapia {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .video {
+            display: none;
+        }
+
+    footer {
+        display: none;
+    }
+
+    .contenedorGrid {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        margin-top: 50%;
+        margin-bottom: 10%;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .imagen {
+        width: 100%;
+    }
+
+    nav {
+        justify-content: center;
+        align-items: center;
+    }
+        
+    
+
+/* Eventos grid y responsive */
+
+.contenedorEvento {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "sectionA" 
+    "imagenEvento" 
+    "sectionB"
+    "imagenEvento2";
+    
+}
+
+.sectionA {
+    display: grid;
+    text-align: center;
+    grid-area: sectionA;
+    width: 1fr;
+    margin: 50% 10% 10% 10%;
+    
+}
+
+.imagenEvento {
+    display: grid;
+    width: 100%;
+    grid-area: imagenEvento;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sectionB {
+    display: grid;
+    text-align: center;
+    grid-area: sectionB;
+    width: 1fr;
+    margin: 10% 10% 10% 10%;
+    
+}
+
+.imagenEvento2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-area: imagenEvento2;
+    width: 100%;
+    margin-bottom: 10%;
+}
+    
+}
+
+/* Navbar con bootstrap */
+
+.logo {
+    width: 5rem;
+}
+
+
+
+nav {
+    background-color: #FBF4EA;
+    color: #FBF4EA;
+    
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar-nav .nav-link {
+    color: #FABC8D;
+}
+
+.nav-item {
+    margin-right: 5rem;
+    
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
