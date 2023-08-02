@@ -291,6 +291,12 @@ footer {
         box-sizing: border-box;
         
     }
+
+    /* Carrusel vista smartphone */
+
+    .carrouselMargin {
+        margin-top: 20% !important;
+    }
     
 
     .logoArterapia {
@@ -314,7 +320,7 @@ footer {
         margin-left: 0;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        margin-top: 50%;
+        margin-top: 20%;
         margin-bottom: 10%;
         align-items: center;
         justify-content: center;
