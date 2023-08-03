@@ -339,7 +339,7 @@ footer {
         
     
 
-/* Eventos grid y responsive */
+/* Eventos grid y responsive smartphone */
 
 .contenedorEvento {
     display: grid;
@@ -360,7 +360,7 @@ footer {
     text-align: center;
     grid-area: sectionA;
     width: 1fr;
-    margin: 50% 10% 10% 10%;
+    margin: 40% 10% 10% 10%;
     
 }
 
@@ -430,4 +430,14 @@ nav {
 
 .nav-item:last-child {
     margin-right: 0;
+}
+
+.fuentes li a:hover {
+   color: #555555; 
+   background-color: antiquewhite;
+   border-radius: 10px;
+}
+
+.fuentes {
+    font-size: 1.1rem;;
 }
