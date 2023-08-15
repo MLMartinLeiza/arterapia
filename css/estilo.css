@@ -93,18 +93,6 @@ footer {
     text-align: center;
 }
 
-.contenedor3 {
-    display: inline-block;
-    width: 30%;
-    justify-content: right;
-    text-align: left;
-}
-
-.listaFooter {
-    display: block;
-    font-size: 1px;
-    text-transform: lowercase;
-}
 
 .formulario {
     display: flex;
@@ -441,3 +429,125 @@ nav {
 .fuentes {
     font-size: 1.1rem;;
 }
+
+/* Estilos responsive pagina Productos (350px a 640px) */
+@media (max-width: 640px) {
+    
+    .navbar-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-item {
+      margin-right: 0;
+      margin-bottom: 10px
+    }
+  
+   
+    .contenedorPadre {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contenedorCategorias {
+      width: 100%;
+      margin: 0; 
+      margin-top: 35%;
+      text-align: center;
+    }
+  
+    .contenedorProductos {
+      max-width: 100%;
+      height: 100%;
+      object-fit: cover;
+      margin: 0;
+      justify-content: center;
+    }
+  
+    .imagenProductos {
+      width: 100%;
+      margin: 10px;
+    }
+  }
+  
+  
+@media (min-width: 641px) and (max-width: 900px) {
+    
+    .navbar-nav {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .nav-item {
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+  
+    .contenedorPadre {
+      flex-direction: row;
+      margin-top: 20%;
+      align-items: flex-start;
+    }
+  
+    .contenedorCategorias {
+      width: 30%;
+      margin: 0;
+      text-align: left;
+    }
+  
+    .contenedorProductos {
+      width: 70%;
+      margin: 0;
+      justify-content: flex-start;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  
+    .imagenProductos {
+      width: calc(50% - 20px);
+      max-width: 100%;
+    }
+  }
+  
+  
+  /* Estilos para vista de tablet (900px a 1200px) */
+@media (min-width: 901px) and (max-width: 1500px) {
+    
+    .navbar-nav {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .nav-item {
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+  
+    .contenedorPadre {
+        margin-top: 20%;
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .contenedorCategorias {
+      width: 25%;
+      margin: 0;
+      text-align: left;
+    }
+  
+    .contenedorProductos {
+      width: 75%;
+      margin: 0;
+      justify-content: flex-start;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  
+    .imagenProductos {
+      width: calc(33.33% - 20px);
+      max-width: 100%;
+    }
+  }
+  
