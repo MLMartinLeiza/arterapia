@@ -168,18 +168,16 @@ footer {
 }
 
 .imagenArterapia {
-    margin-top: 70%;
-    margin-left: 50%;
-    margin-bottom: 10%;
+    margin-top: 50%;
+    width: 100%;
     border: 1px solid white;
     border-radius: 10px;
 }
 
 .textoArterapia {
-    margin-top: 19%;
-    margin-left: 20%;
-    width: 50%;
-    font-size: 1.5rem;
+    margin-top: 25%;
+    width: 100%;
+    font-size: 1.2rem;
     color: #555555;
 }
 
