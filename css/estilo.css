@@ -168,7 +168,7 @@ footer {
 }
 
 .imagenArterapia {
-    margin-top: 50%;
+    margin-top: 45%;
     width: 100%;
     border: 1px solid white;
     border-radius: 10px;
@@ -182,18 +182,23 @@ footer {
 }
 
 .listaCuidados {
-    display: flex;
-    display: inline-block;
-    background-color:  #FBF4EA;
-    width: 50%;
-    margin-top: 15%;
+    background-color: #FBF4EA;
+    margin-top: 25%;
     padding: 5%;
     border: white solid 2px;
     border-radius: 10px;
     color: #555555;
 }
 
-
+.listaCuidados2 {
+    background-color: #FBF4EA;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    border: white solid 2px;
+    border-radius: 10px;
+    color: #555555;
+}
 
 .contenedorCuidados {
     display: flex;
@@ -206,16 +211,17 @@ footer {
     align-items: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "sectionA imagenEvento"
-    "imagenEvento2 sectionB";
-    
+    grid-template-areas:
+        "sectionA imagenEvento"
+        "imagenEvento2 sectionB";
+
 }
 
 .sectionA {
     grid-area: sectionA;
     width: 1fr;
-    margin-top: 20%;margin-left: 20%;
+    margin-top: 20%;
+    margin-left: 20%;
 
 }
 
@@ -230,7 +236,7 @@ footer {
     grid-area: sectionB;
     width: 1fr;
     margin-right: 20%;
-    
+
 }
 
 .imagenEvento2 {
@@ -245,10 +251,10 @@ footer {
     width: 100%;
     justify-items: center;
     align-items: center;
-    grid-template-areas: 
-    "nav"
-    "video"
-    "footer";
+    grid-template-areas:
+        "nav"
+        "video"
+        "footer";
 }
 
 .contenedorNavInicio {
@@ -268,22 +274,23 @@ footer {
 /* Vista smartphone */
 
 @media (max-width: 500px) {
-    
+
     * {
         margin: 0px;
         padding: 0px;
         font-family: 'Agrandir';
         font-weight: normal;
         box-sizing: border-box;
-        
+
     }
 
     /* Carrusel vista smartphone */
 
-    .carrouselMargin {
-        margin-top: 20% !important;
-    }
     
+
+    .listaCuidados {
+        margin-top: 35%;
+    }
 
     .logoArterapia {
         display: grid;
@@ -292,9 +299,9 @@ footer {
         justify-content: center;
     }
 
-        .video {
-            display: none;
-        }
+    .video {
+        display: none;
+    }
 
     footer {
         display: none;
@@ -310,7 +317,7 @@ footer {
         margin-bottom: 10%;
         align-items: center;
         justify-content: center;
-        
+
     }
 
     .imagen {
@@ -322,62 +329,62 @@ footer {
         align-items: center;
         width: 100%;
     }
-        
-    
 
-/* Eventos grid y responsive smartphone */
 
-.contenedorEvento {
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "sectionA" 
-    "imagenEvento" 
-    "sectionB"
-    "imagenEvento2";
-    
-}
 
-.sectionA {
-    display: grid;
-    text-align: center;
-    grid-area: sectionA;
-    width: 1fr;
-    margin: 40% 10% 10% 10%;
-    
-}
+    /* Eventos grid y responsive smartphone */
 
-.imagenEvento {
-    display: grid;
-    width: 100%;
-    grid-area: imagenEvento;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
-    
-}
+    .contenedorEvento {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "sectionA"
+            "imagenEvento"
+            "sectionB"
+            "imagenEvento2";
 
-.sectionB {
-    display: grid;
-    text-align: center;
-    grid-area: sectionB;
-    width: 1fr;
-    margin: 10% 10% 10% 10%;
-    
-}
+    }
 
-.imagenEvento2 {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-area: imagenEvento2;
-    width: 100%;
-    margin-bottom: 10%;
-}
-    
+    .sectionA {
+        display: grid;
+        text-align: center;
+        grid-area: sectionA;
+        width: 1fr;
+        margin: 40% 10% 10% 10%;
+
+    }
+
+    .imagenEvento {
+        display: grid;
+        width: 100%;
+        grid-area: imagenEvento;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .sectionB {
+        display: grid;
+        text-align: center;
+        grid-area: sectionB;
+        width: 1fr;
+        margin: 10% 10% 10% 10%;
+
+    }
+
+    .imagenEvento2 {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-area: imagenEvento2;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
 }
 
 /* Navbar con bootstrap */
@@ -391,7 +398,7 @@ footer {
 nav {
     background-color: #FBF4EA;
     color: #FBF4EA;
-    
+
 }
 
 .navbar-nav {
@@ -399,10 +406,10 @@ nav {
     justify-content: space-between;
     height: 100%;
     display: flex;
-    
+
     margin: 0;
     padding: 0;
-    
+
 }
 
 .navbar-nav .nav-link {
@@ -411,7 +418,7 @@ nav {
 
 .nav-item {
     margin-right: 5rem;
-    
+
 }
 
 .nav-item:last-child {
@@ -419,133 +426,133 @@ nav {
 }
 
 .fuentes li a:hover {
-   color: #555555; 
-   background-color: antiquewhite;
-   border-radius: 10px;
+    color: #555555;
+    background-color: antiquewhite;
+    border-radius: 10px;
 }
 
 .fuentes {
-    font-size: 1.1rem;;
+    font-size: 1.1rem;
+    ;
 }
 
 /* Estilos responsive pagina Productos (350px a 640px) */
 @media (max-width: 640px) {
-    
+
     .navbar-nav {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-  
+
     .nav-item {
-      margin-right: 0;
-      margin-bottom: 10px
+        margin-right: 0;
+        margin-bottom: 10px
     }
-  
-   
+
+
     .contenedorPadre {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-  
+
     .contenedorCategorias {
-      width: 100%;
-      margin: 0; 
-      margin-top: 35%;
-      text-align: center;
+        width: 100%;
+        margin: 0;
+        margin-top: 35%;
+        text-align: center;
     }
-  
+
     .contenedorProductos {
-      max-width: 100%;
-      height: 100%;
-      object-fit: cover;
-      margin: 0;
-      justify-content: center;
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin: 0;
+        justify-content: center;
     }
-  
+
     .imagenProductos {
-      width: 100%;
-      margin: 10px;
+        width: 100%;
+        margin: 10px;
     }
-  }
-  
-  
+}
+
+
 @media (min-width: 641px) and (max-width: 900px) {
-    
+
     .navbar-nav {
-      flex-direction: row;
-      justify-content: space-between;
+        flex-direction: row;
+        justify-content: space-between;
     }
-  
+
     .nav-item {
-      margin-right: 20px;
-      margin-bottom: 0;
+        margin-right: 20px;
+        margin-bottom: 0;
     }
-  
+
     .contenedorPadre {
-      flex-direction: row;
-      margin-top: 20%;
-      align-items: flex-start;
+        flex-direction: row;
+        margin-top: 20%;
+        align-items: flex-start;
     }
-  
+
     .contenedorCategorias {
-      width: 30%;
-      margin: 0;
-      text-align: left;
+        width: 30%;
+        margin: 0;
+        text-align: left;
     }
-  
+
     .contenedorProductos {
-      width: 70%;
-      margin: 0;
-      justify-content: flex-start;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
+        width: 70%;
+        margin: 0;
+        justify-content: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
     }
-  
+
     .imagenProductos {
-      width: calc(50% - 20px);
-      max-width: 100%;
+        width: calc(50% - 20px);
+        max-width: 100%;
     }
-  }
-  
-  
-  /* Estilos para vista de tablet (900px a 1200px) */
+}
+
+
+/* Estilos para vista de tablet (900px a 1200px) */
 @media (min-width: 901px) and (max-width: 1500px) {
-    
+
     .navbar-nav {
-      flex-direction: row;
-      justify-content: space-between;
+        flex-direction: row;
+        justify-content: space-between;
     }
-  
+
     .nav-item {
-      margin-right: 20px;
-      margin-bottom: 0;
+        margin-right: 20px;
+        margin-bottom: 0;
     }
-  
+
     .contenedorPadre {
         margin-top: 20%;
-      flex-direction: row;
-      align-items: flex-start;
+        flex-direction: row;
+        align-items: flex-start;
     }
-  
+
     .contenedorCategorias {
-      width: 25%;
-      margin: 0;
-      text-align: left;
+        width: 25%;
+        margin: 0;
+        text-align: left;
     }
-  
+
     .contenedorProductos {
-      width: 75%;
-      margin: 0;
-      justify-content: flex-start;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
+        width: 75%;
+        margin: 0;
+        justify-content: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
     }
-  
+
     .imagenProductos {
-      width: calc(33.33% - 20px);
-      max-width: 100%;
+        width: calc(33.33% - 20px);
+        max-width: 100%;
     }
-  }
-  
+}
