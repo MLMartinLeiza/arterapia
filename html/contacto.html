@@ -46,52 +46,27 @@
         </nav>
     </header>
 
-    <div class="formulario">
+    <div class="margen">
         
 
         <form>
-            <h2>Deja tu consulta</h2>
-
-                <label for="nombre">Nombre  </label>
-                <input type="text" id="Nombre">
-                <br><br>
-
-                <label for="apellido">Apellido  </label>
-                <input type="text" id="Apellido">
-                <br><br>
-
-                <label for="telefono">Telefono</label>
-                <input type="text" id="Telefono">
-                <br><br>
-
-                <label for="Mail">Correo  </label>
-                <input type="text" id="Mail">
-                <br><br>
-
-                <label for="Mensaje">Mensaje</label>
-                <br>
-                <textarea name="Mensaje" id="Mensaje" cols="30" rows="10"></textarea>
-                <br>
-                <input type="submit">
-                <input type="reset">
-        </form>
-
-        <form>
-            <h3>Tema de consulta</h3>
-
-            <select name="Tema" id="Tema">
-                <option value="Merienda + Ceramica">Merienda + Ceramica</option>
-                <option value="Ceramica y vinito">Ceramica y vinito</option>
-                <option value="Pedidos">Pedidios</option>
-            </select>
-        </form>
-
-        <div class="redesContacto">
-            <p class="parrafoContacto"><img src="../img/bxl-whatsapp.svg" alt="Imagen Whatsapp"> +54 26575008**</p>
-            <p class="parrafoContacto"><img src="../img/bxl-instagram.svg" alt="Imagen instagram"> @arterapiaceramica.jd</p>
-            <p class="parrafoContacto"><img src="../img/bx-envelope.svg" alt="Imagen Correo"> Correo</p>
             
-        </div>
+            <h2 class="text-center">Deja tu consulta</h2>
+
+            <form class="form-floating">
+                <input type="email" class="form-control" id="floatingInputValue" placeholder="Email" value="">
+                <label for="floatingInputValue"></label>
+              </form>
+
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Consulta</label>
+              </div>
+
+              <button type="button" class="btn btn-secondary">Enviar</button>
+        </form>
+
+       
     </div>
 
     
