@@ -101,12 +101,6 @@ footer {
   color: #555555;
 }
 
-.contenedorPadre {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 5%;
-}
-
 .contenedor {
   flex-direction: column;
   width: 33%;
@@ -127,17 +121,21 @@ footer {
   height: 80%;
 }
 
-.listaProductos {
+header .contenedorPadre {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+  color: #555555;
+}
+header .listaProductos {
   display: flex;
   flex-direction: column;
   padding-top: 8%;
 }
-
-.subtituloProductos {
+header .subtituloProductos {
   margin-left: 5%;
 }
-
-.contenedorProductos {
+header .contenedorProductos {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -147,9 +145,9 @@ footer {
   border-bottom: 10%;
   margin-right: 10%;
   padding: 8%;
+  padding-top: 0;
 }
-
-.imagenProductos {
+header .imagenProductos {
   display: flex;
   flex-direction: column;
   width: 200px;
@@ -306,13 +304,10 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  .video {
-    display: none;
-  }
   footer {
     display: none;
   }
-  .contenedorGrid {
+  header .contenedorGrid {
     display: grid;
     width: 100%;
     margin-left: 0;
@@ -323,8 +318,11 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  .imagen {
+  header .imagen {
     width: 100%;
+  }
+  header .video {
+    display: none;
   }
   nav {
     justify-content: center;
@@ -342,24 +340,24 @@ footer {
     margin-right: 0;
     margin-bottom: 10px;
   }
-  .contenedorPadre {
+  header .contenedorPadre {
     flex-direction: column;
     align-items: center;
   }
-  .contenedorCategorias {
+  header .contenedorCategorias {
     width: 100%;
     margin: 0;
     margin-top: 35%;
     text-align: center;
   }
-  .contenedorProductos {
+  header .contenedorProductos {
     max-width: 100%;
     height: 100%;
     object-fit: cover;
     margin: 0;
     justify-content: center;
   }
-  .imagenProductos {
+  header .imagenProductos {
     width: 100%;
     margin: 10px;
   }
@@ -373,17 +371,17 @@ footer {
     margin-right: 20px;
     margin-bottom: 0;
   }
-  .contenedorPadre {
+  header .contenedorPadre {
     flex-direction: row;
     margin-top: 20%;
     align-items: flex-start;
   }
-  .contenedorCategorias {
+  header .contenedorCategorias {
     width: 30%;
     margin: 0;
     text-align: left;
   }
-  .contenedorProductos {
+  header .contenedorProductos {
     width: 70%;
     margin: 0;
     justify-content: flex-start;
@@ -391,7 +389,7 @@ footer {
     flex-wrap: wrap;
     gap: 20px;
   }
-  .imagenProductos {
+  header .imagenProductos {
     width: calc(50% - 20px);
     max-width: 100%;
   }
@@ -406,17 +404,17 @@ footer {
     margin-right: 20px;
     margin-bottom: 0;
   }
-  .contenedorPadre {
-    margin-top: 20%;
+  header .contenedorPadre {
+    margin-top: 15%;
     flex-direction: row;
     align-items: flex-start;
   }
-  .contenedorCategorias {
+  header .contenedorCategorias {
     width: 25%;
     margin: 0;
     text-align: left;
   }
-  .contenedorProductos {
+  header .contenedorProductos {
     width: 75%;
     margin: 0;
     justify-content: flex-start;
@@ -424,7 +422,7 @@ footer {
     flex-wrap: wrap;
     gap: 20px;
   }
-  .imagenProductos {
+  header .imagenProductos {
     width: calc(33.33% - 20px);
     max-width: 100%;
   }

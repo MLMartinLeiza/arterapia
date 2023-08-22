@@ -28,30 +28,34 @@
         justify-content: center;
     }
 
-    .video {
-        display: none;
-    }
+    
 
     footer {
         display: none;
     }
 
-    .contenedorGrid {
-        display: grid;
-        width: 100%;
-        margin-left: 0;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        margin-top: 20%;
-        margin-bottom: 10%;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .imagen {
-        width: 100%;
-    }
+    header {
+        .contenedorGrid {
+          display: grid;
+          width: 100%;
+          margin-left: 0;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
+          margin-top: 20%;
+          margin-bottom: 10%;
+          align-items: center;
+          justify-content: center;
+        }
+      
+        .imagen {
+          width: 100%;
+        }
+      
+        .video {
+          display: none;
+        }
+      }
+      
 
     nav {
         justify-content: center;
@@ -74,30 +78,32 @@
     }
 
 
-    .contenedorPadre {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .contenedorCategorias {
-        width: 100%;
-        margin: 0;
-        margin-top: 35%;
-        text-align: center;
-    }
-
-    .contenedorProductos {
-        max-width: 100%;
-        height: 100%;
-        object-fit: cover;
-        margin: 0;
-        justify-content: center;
-    }
-
-    .imagenProductos {
-        width: 100%;
-        margin: 10px;
-    }
+    header {
+        .contenedorPadre {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        .contenedorCategorias {
+          width: 100%;
+          margin: 0;
+          margin-top: 35%;
+          text-align: center;
+        }
+      
+        .contenedorProductos {
+          max-width: 100%;
+          height: 100%;
+          object-fit: cover;
+          margin: 0;
+          justify-content: center;
+        }
+      
+        .imagenProductos {
+          width: 100%;
+          margin: 10px;
+        }
+      }
 }
 
 
@@ -113,31 +119,33 @@
         margin-bottom: 0;
     }
 
-    .contenedorPadre {
-        flex-direction: row;
-        margin-top: 20%;
-        align-items: flex-start;
-    }
-
-    .contenedorCategorias {
-        width: 30%;
-        margin: 0;
-        text-align: left;
-    }
-
-    .contenedorProductos {
-        width: 70%;
-        margin: 0;
-        justify-content: flex-start;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
-    .imagenProductos {
-        width: calc(50% - 20px);
-        max-width: 100%;
-    }
+    header {
+        .contenedorPadre {
+          flex-direction: row;
+          margin-top: 20%;
+          align-items: flex-start;
+        }
+      
+        .contenedorCategorias {
+          width: 30%;
+          margin: 0;
+          text-align: left;
+        }
+      
+        .contenedorProductos {
+          width: 70%;
+          margin: 0;
+          justify-content: flex-start;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+        }
+      
+        .imagenProductos {
+          width: calc(50% - 20px);
+          max-width: 100%;
+        }
+      }
 }
 
 
@@ -154,29 +162,31 @@
         margin-bottom: 0;
     }
 
-    .contenedorPadre {
-        margin-top: 20%;
-        flex-direction: row;
-        align-items: flex-start;
-    }
-
-    .contenedorCategorias {
-        width: 25%;
-        margin: 0;
-        text-align: left;
-    }
-
-    .contenedorProductos {
-        width: 75%;
-        margin: 0;
-        justify-content: flex-start;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
-    .imagenProductos {
-        width: calc(33.33% - 20px);
-        max-width: 100%;
-    }
-}
+    header {
+        .contenedorPadre {
+          margin-top: 15%;
+          flex-direction: row;
+          align-items: flex-start;
+        }
+      
+        .contenedorCategorias {
+          width: 25%;
+          margin: 0;
+          text-align: left;
+        }
+      
+        .contenedorProductos {
+          width: 75%;
+          margin: 0;
+          justify-content: flex-start;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+        }
+      
+        .imagenProductos {
+          width: calc(33.33% - 20px);
+          max-width: 100%;
+        }
+      }
+    }      
