@@ -1,0 +1,48 @@
+/* Navbar con bootstrap */
+
+.logo {
+    width: 5rem;
+}
+
+
+
+nav {
+    background-color: #FBF4EA;
+    color: #FBF4EA;
+
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar-nav .nav-link {
+    color: #FABC8D;
+}
+
+.nav-item {
+    margin-right: 5rem;
+
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.fuentes li a:hover {
+    color: #555555;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.fuentes {
+    font-size: 1.1rem;
+    ;
+}

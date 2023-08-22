@@ -1,0 +1,96 @@
+.margen {
+    margin-top: 120px;
+ }
+.contenedorEvento {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+        "sectionA imagenEvento"
+        "imagenEvento2 sectionB";
+
+}
+
+.sectionA {
+    grid-area: sectionA;
+    width: 50%;
+    margin-top: 20%;
+    margin-left: 20%;
+
+}
+
+.imagenEvento {
+    width: 50%;
+    grid-area: imagenEvento;
+    margin-top: 30%;
+    margin-left: 10%;
+}
+
+.sectionB {
+    grid-area: sectionB;
+    width: 50%;
+    margin-right: 20%;
+
+}
+
+.imagenEvento2 {
+    grid-area: imagenEvento2;
+    width: 50%;
+}
+
+   /* Eventos grid y responsive smartphone */
+
+   .contenedorEvento {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "sectionA"
+        "imagenEvento"
+        "sectionB"
+        "imagenEvento2";
+
+}
+
+.sectionA {
+    display: grid;
+    text-align: center;
+    grid-area: sectionA;
+    width: 1fr;
+    margin: 40% 10% 10% 10%;
+
+}
+
+.imagenEvento {
+    display: grid;
+    width: 100%;
+    grid-area: imagenEvento;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sectionB {
+    display: grid;
+    text-align: center;
+    grid-area: sectionB;
+    width: 1fr;
+    margin: 10% 10% 10% 10%;
+
+}
+
+.imagenEvento2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-area: imagenEvento2;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
