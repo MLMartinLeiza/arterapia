@@ -1,4 +1,6 @@
 header {
+
+    
     .contenedorGrid {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
@@ -21,7 +23,7 @@ header {
         display: flex;
         flex-direction: row;
         margin-bottom: 5%;
-        color: #555555;
+        color: $secondary-color;
       }
     
       .listaProductos {
@@ -67,7 +69,7 @@ header {
         margin-top: 25%;
         width: 100%;
         font-size: 1.2rem;
-        color: #555555;
+        color: $secondary-color;
     }
     
   }
