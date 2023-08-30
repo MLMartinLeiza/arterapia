@@ -103,6 +103,22 @@ header .textoArterapia {
   padding: 5px;
 }
 
+header .titulosProductos {
+  color: #555555;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 130px;
+  padding: 1rem;
+}
+header .titulosProductos h2 {
+  font-size: 2rem;
+}
+
+.card {
+  margin: 0.5rem;
+}
+
 main .listaCuidados {
   background-color: #FBF4EA;
   margin-top: 25%;
