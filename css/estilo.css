@@ -115,8 +115,15 @@ header .titulosProductos h2 {
   font-size: 2rem;
 }
 
-.card {
-  margin: 0.5rem;
+.colorBtn {
+  background-color: #FBF4EA;
+  border-color: #FBF4EA;
+  color: #FABC8D;
+}
+
+.colorBtn:hover {
+  background-color: #FABC8D;
+  color: #555555;
 }
 
 main .listaCuidados {
@@ -265,27 +272,6 @@ footer .footerInicio {
     margin-right: 0;
     margin-bottom: 10px;
   }
-  header .contenedorPadre {
-    flex-direction: column;
-    align-items: center;
-  }
-  header .contenedorCategorias {
-    width: 100%;
-    margin: 0;
-    margin-top: 35%;
-    text-align: center;
-  }
-  header .contenedorProductos {
-    max-width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin: 0;
-    justify-content: center;
-  }
-  header .imagenProductos {
-    width: 100%;
-    margin: 10px;
-  }
 }
 @media (min-width: 641px) and (max-width: 900px) {
   .navbar-nav {
@@ -295,28 +281,6 @@ footer .footerInicio {
   .nav-item {
     margin-right: 20px;
     margin-bottom: 0;
-  }
-  header .contenedorPadre {
-    flex-direction: row;
-    margin-top: 20%;
-    align-items: flex-start;
-  }
-  header .contenedorCategorias {
-    width: 30%;
-    margin: 0;
-    text-align: left;
-  }
-  header .contenedorProductos {
-    width: 70%;
-    margin: 0;
-    justify-content: flex-start;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  header .imagenProductos {
-    width: calc(50% - 20px);
-    max-width: 100%;
   }
 }
 /* Estilos para vista de tablet (900px a 1200px) */
@@ -328,28 +292,6 @@ footer .footerInicio {
   .nav-item {
     margin-right: 20px;
     margin-bottom: 0;
-  }
-  header .contenedorPadre {
-    margin-top: 15%;
-    flex-direction: row;
-    align-items: flex-start;
-  }
-  header .contenedorCategorias {
-    width: 25%;
-    margin: 0;
-    text-align: left;
-  }
-  header .contenedorProductos {
-    width: 75%;
-    margin: 0;
-    justify-content: flex-start;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  header .imagenProductos {
-    width: calc(33.33% - 20px);
-    max-width: 100%;
   }
 }
 

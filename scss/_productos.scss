@@ -12,7 +12,18 @@ header .titulosProductos {
     
 }
 
-.card {
-    margin: 0.5rem;
+
+
+.colorBtn {
+    background-color: #FBF4EA;
+    border-color: #FBF4EA;
+    color: $primary-color;
 }
+
+.colorBtn:hover {
+    background-color: $primary-color;
+    color: $secondary-color;
+}
+
+
 
