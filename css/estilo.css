@@ -115,6 +115,11 @@ header .titulosProductos h2 {
   font-size: 2rem;
 }
 
+.card {
+  margin: 0.5rem;
+  color: #555555;
+}
+
 .colorBtn {
   background-color: #FBF4EA;
   border-color: #FBF4EA;
