@@ -1,18 +1,16 @@
 @mixin estilo-imagen {
-    border: 5px solid white;
-    border-radius: 20px;
-    width: 100%;
-    height: auto;
-  }
+  border: 5px solid white;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
 
-  @mixin estilo-video {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2%;
-    padding: 1.5%;
-    color: #555555;
-  }
-
-  
+@mixin estilo-video {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  padding: 1.5%;
+  color: #555555;
+}

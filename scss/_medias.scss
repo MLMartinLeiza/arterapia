@@ -28,7 +28,7 @@
         justify-content: center;
     }
 
-    
+
 
     footer {
         display: none;
@@ -36,26 +36,26 @@
 
     header {
         .contenedorGrid {
-          display: grid;
-          width: 100%;
-          margin-left: 0;
-          grid-template-columns: 1fr;
-          grid-template-rows: 1fr;
-          margin-top: 20%;
-          margin-bottom: 10%;
-          align-items: center;
-          justify-content: center;
+            display: grid;
+            width: 100%;
+            margin-left: 0;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            margin-top: 20%;
+            margin-bottom: 10%;
+            align-items: center;
+            justify-content: center;
         }
-      
+
         .imagen {
-          width: 100%;
+            width: 100%;
         }
-      
+
         .video {
-          display: none;
+            display: none;
         }
-      }
-      
+    }
+
 
     nav {
         justify-content: center;
@@ -78,7 +78,7 @@
     }
 
 
-    
+
 }
 
 
@@ -94,7 +94,7 @@
         margin-bottom: 0;
     }
 
-   
+
 }
 
 
@@ -111,5 +111,5 @@
         margin-bottom: 0;
     }
 
-   
-    }      
+
+}

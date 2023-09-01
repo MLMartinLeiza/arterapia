@@ -12,24 +12,24 @@ footer {
 
 
 
-.contenedor {
-    flex-direction: column;
-    width: 33%;
-    margin-left: 2%;
-    justify-content: center;
-    text-align: center;
-}
+    .contenedor {
+        flex-direction: column;
+        width: 33%;
+        margin-left: 2%;
+        justify-content: center;
+        text-align: center;
+    }
 
-.contenedor2 {
-    display: inline-block;
-    width: 30%;
-    justify-content: center;
-    text-align: center;
-}
+    .contenedor2 {
+        display: inline-block;
+        width: 30%;
+        justify-content: center;
+        text-align: center;
+    }
 
-.footerInicio {
-    grid-area: footer;
-    height: 80%;
-}
+    .footerInicio {
+        grid-area: footer;
+        height: 80%;
+    }
 
 }
