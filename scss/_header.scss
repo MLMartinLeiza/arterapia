@@ -5,7 +5,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin-top: 15%;
+    margin-top: 5%;
     align-items: center;
     margin-left: 2%;
     row-gap: 4%;
@@ -60,7 +60,7 @@ header {
   }
 
   .imagenArterapia {
-    margin-top: 45%;
+    margin-top: 10%;
     width: 100%;
     border: 1px solid white;
     border-radius: 10px;
@@ -68,13 +68,13 @@ header {
   }
 
   .textoArterapia {
-    margin-top: 25%;
+    margin-top: 8%;
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     color: $secondary-color;
     background-color: #FBF4EA;
     border-radius: 10px;
-    padding: 5px;
+    padding: 8px;
   }
 
 }

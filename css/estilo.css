@@ -15,6 +15,7 @@
 body {
   background-color: white;
   width: 100%;
+  margin-top: 105px;
 }
 
 h1 {
@@ -23,15 +24,15 @@ h1 {
   color: #555555;
 }
 
-.margen {
-  margin-top: 120px;
+h2 {
+  color: #555555;
 }
 
 header .contenedorGrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  margin-top: 15%;
+  margin-top: 5%;
   align-items: center;
   margin-left: 2%;
   row-gap: 4%;
@@ -87,20 +88,20 @@ header .imagenProductos {
   object-fit: contain;
 }
 header .imagenArterapia {
-  margin-top: 45%;
+  margin-top: 10%;
   width: 100%;
   border: 1px solid white;
   border-radius: 10px;
   margin-bottom: 5%;
 }
 header .textoArterapia {
-  margin-top: 25%;
+  margin-top: 8%;
   width: 100%;
-  font-size: 1.2rem;
+  font-size: 1.9rem;
   color: #555555;
   background-color: #FBF4EA;
   border-radius: 10px;
-  padding: 5px;
+  padding: 8px;
 }
 
 header .titulosProductos {
@@ -133,7 +134,6 @@ header .titulosProductos h2 {
 
 main .listaCuidados {
   background-color: #FBF4EA;
-  margin-top: 25%;
   padding: 5%;
   border: white solid 2px;
   border-radius: 10px;
@@ -228,13 +228,6 @@ footer .footerInicio {
     font-weight: normal;
     box-sizing: border-box;
   }
-  /* Carrusel vista smartphone */
-  .carrouselMargin {
-    margin-top: 20% !important;
-  }
-  .listaCuidados {
-    margin-top: 35%;
-  }
   .logoArterapia {
     display: grid;
     width: 100%;
@@ -298,6 +291,13 @@ footer .footerInicio {
     margin-right: 20px;
     margin-bottom: 0;
   }
+}
+.form-control.focus {
+  border-color: antiquewhite;
+}
+
+.form-control:focus {
+  box-shadow: none;
 }
 
 /*# sourceMappingURL=estilo.css.map */
